@@ -20,5 +20,8 @@ Run as follows::
     >>> def f(x, y=1):
     ...     return x, y
     ...
-    >>> clockit(f, 1, y=2)
-    0.00045296200551092625
+    >>> clocked = clockit(f, 1, y=2)
+    >>> clocked.result
+    (1, 2)
+    >>> clocked.time
+    0.0005593200330622494
