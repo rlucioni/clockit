@@ -26,6 +26,8 @@ Run as follows::
     >>> clocked.time
     0.0005593200330622494
 
+``clockit`` uses the ``timeit`` module which accepts objects that are callable without arguments.
+
 Distribution
 ------------
 
