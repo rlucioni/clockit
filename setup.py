@@ -7,14 +7,14 @@ with open('README.rst') as readme:
 
 setup(
     name='clockit',
-    version='0.2.0',
+    version='0.2.1',
     description='Tool for timing the execution of Python functions',
     long_description=long_description,
     classifiers=[
-        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
-        'Topic :: Software Development :: Libraries :: Python Modules',
         'Development Status :: 3 - Alpha',
+        'License :: OSI Approved :: MIT License',
+        'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     keywords='clockit',
     url='https://github.com/rlucioni/clockit',
