@@ -1,5 +1,7 @@
-clockit
-=======
+clockit |Travis|_
+=================
+.. |Travis| image:: https://travis-ci.org/rlucioni/clockit.svg?branch=master
+.. _Travis: https://travis-ci.org/rlucioni/clockit
 
 Tool for timing the execution of Python functions.
 
