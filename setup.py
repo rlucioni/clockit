@@ -7,7 +7,7 @@ with open('README.rst') as readme:
 
 setup(
     name='clockit',
-    version='0.2.1',
+    version='0.2.2',
     description='Tool for timing the execution of Python functions',
     long_description=long_description,
     classifiers=[
